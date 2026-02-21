@@ -1,0 +1,9 @@
+/* TEAM */
+Artist: JERWIN
+Site Ops: Zoomie + Josh
+Contact: contact@jerwinmusic.com
+
+/* SITE */
+Standards: HTML5, CSS3
+Hosting: GitHub Pages
+Domain: jerwinmusic.com

@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://jerwinmusic.com/sitemap.xml
+
+# Maintainer info
+# https://jerwinmusic.com/humans.txt
