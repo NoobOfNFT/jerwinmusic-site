@@ -26,6 +26,33 @@ gh api repos/:owner/jerwinmusic-site/pages \
 - Domain: `jerwinmusic.com`
 - Enforce HTTPS: ON (after cert provisioning)
 
+### Troubleshooting: HTTPS Certificate Issues
+If GitHub Pages hasn't issued a TLS certificate after DNS propagation (can take hours to days), trigger re-provisioning:
+
+```bash
+cd /home/josh/.openclaw/workspace/music/seo/gh-pages-site
+# Remove CNAME temporarily
+git rm CNAME
+git commit -m "Temporarily remove CNAME to trigger cert re-provisioning"
+git push
+# Re-add CNAME
+echo "jerwinmusic.com" > CNAME
+git add CNAME
+git commit -m "Re-add CNAME to trigger certificate issuance"
+git push
+```
+
+Wait a few minutes, then verify:
+```bash
+curl -I https://jerwinmusic.com
+```
+
+Once HTTPS is working, enable enforcement:
+```bash
+gh api repos/:owner/jerwinmusic-site/pages -X PUT \
+  --input - <<< '{"cname":"jerwinmusic.com","https_enforced":true}'
+```
+
 ## 5) DNS at Squarespace Domains
 Use exactly:
 - A @ 185.199.108.153
