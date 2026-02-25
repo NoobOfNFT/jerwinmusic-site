@@ -1,18 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://jerwinmusic.com/</loc></url>
-<url><loc>https://jerwinmusic.com/about.html</loc></url>
-<url><loc>https://jerwinmusic.com/music.html</loc></url>
-<url><loc>https://jerwinmusic.com/faq.html</loc></url>
-<url><loc>https://jerwinmusic.com/press-kit.html</loc></url>
-<url><loc>https://jerwinmusic.com/releases/im-not-hangry.html</loc></url>
-<url><loc>https://jerwinmusic.com/releases/i-suck-at-golf.html</loc></url>
-<url><loc>https://jerwinmusic.com/releases/godfather-the-mentor-man.html</loc></url>
-<url><loc>https://jerwinmusic.com/releases/go-bananas.html</loc></url>
-<url><loc>https://jerwinmusic.com/lyrics/im-not-hangry.html</loc></url>
-<url><loc>https://jerwinmusic.com/lyrics/i-suck-at-golf.html</loc></url>
-<url><loc>https://jerwinmusic.com/lyrics/godfather-the-mentor-man.html</loc></url>
-<url><loc>https://jerwinmusic.com/lyrics/go-bananas.html</loc></url>
-<url><loc>https://jerwinmusic.com/posts/jerwin-songs-guide.html</loc></url>
-<url><loc>https://jerwinmusic.com/posts/funny-golf-songs.html</loc></url>
+  <url>
+    <loc>https://jerwinmusic.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/music.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/press-kit.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/faq.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/releases/im-not-hangry.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/releases/i-suck-at-golf.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/releases/godfather-the-mentor-man.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/releases/go-bananas.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/posts/jerwin-songs-guide.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/posts/funny-golf-songs.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/lyrics/im-not-hangry.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/lyrics/i-suck-at-golf.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/lyrics/godfather-the-mentor-man.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://jerwinmusic.com/lyrics/go-bananas.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
