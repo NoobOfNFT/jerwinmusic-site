@@ -1,9 +1,10 @@
 /* TEAM */
 Artist: JERWIN
-Site Ops: Zoomie + Josh
+Site Ops: Josh + AI assistants (see llms.txt)
 Contact: contact@jerwinmusic.com
 
 /* SITE */
-Standards: HTML5, CSS3
+Standards: HTML5, CSS3, Schema.org MusicGroup/MusicRecording/FAQ structured data
 Hosting: GitHub Pages
 Domain: jerwinmusic.com
+AI & search crawlers: explicitly welcome — see robots.txt and /llms.txt

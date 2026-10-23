@@ -1,0 +1,16 @@
+{
+  "name": "JERWIN Official",
+  "short_name": "JERWIN",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#06070d",
+  "theme_color": "#06070d",
+  "description": "Official JERWIN site \u2014 funny, feel-good pop & hip-hop from Austin, TX.",
+  "icons": [
+    {
+      "src": "/assets/profile.jpg",
+      "sizes": "320x320",
+      "type": "image/jpeg"
+    }
+  ]
+}
