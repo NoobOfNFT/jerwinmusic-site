@@ -8,7 +8,23 @@
   if (toggle && links) toggle.addEventListener('click', () => {
     const open = links.classList.toggle('open');
     toggle.setAttribute('aria-expanded', open);
+    toggle.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
   });
+
+  // Cookie consent: analytics off until the visitor accepts (see Privacy Policy).
+  const banner = document.getElementById('cookie-banner');
+  const stored = (() => { try { return localStorage.getItem('jw-consent'); } catch (e) { return null; } })();
+  if (stored === 'granted' && typeof window.gtag === 'function') window.gtag('consent', 'update', { 'analytics_storage': 'granted' });
+  if (banner && !stored) {
+    banner.hidden = false;
+    const save = (choice) => {
+      try { localStorage.setItem('jw-consent', choice); } catch (e) {}
+      if (choice === 'granted' && typeof window.gtag === 'function') window.gtag('consent', 'update', { 'analytics_storage': 'granted' });
+      banner.hidden = true;
+    };
+    document.getElementById('cookie-accept').addEventListener('click', () => save('granted'));
+    document.getElementById('cookie-decline').addEventListener('click', () => save('denied'));
+  }
 
   if ('IntersectionObserver' in window && !reduced) {
     const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: 0.08 });
